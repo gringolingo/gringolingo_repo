@@ -1,0 +1,249 @@
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:12:07 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:14:26 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:14:42 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.png" for 127.0.0.1 at Fri Jun 03 20:14:42 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/skyline.png" for 127.0.0.1 at Fri Jun 03 20:14:42 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:15:55 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.png" for 127.0.0.1 at Fri Jun 03 20:15:55 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/skyline.png" for 127.0.0.1 at Fri Jun 03 20:15:55 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:16:04 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.png" for 127.0.0.1 at Fri Jun 03 20:16:04 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/skyline.png" for 127.0.0.1 at Fri Jun 03 20:16:04 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:16:28 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:18:25 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:19:07 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:19:14 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.jpg%C3%9F" for 127.0.0.1 at Fri Jun 03 20:19:14 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.jpg%C3%9F"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:19:18 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.jpg%C3%9F" for 127.0.0.1 at Fri Jun 03 20:19:18 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.jpg%C3%9F"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:20:15 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.jpg%C3%9F" for 127.0.0.1 at Fri Jun 03 20:20:16 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.jpg%C3%9F"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:20:19 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/skyline.jpg%C3%9F" for 127.0.0.1 at Fri Jun 03 20:20:19 +1000 2011
+
+ActionController::RoutingError (No route matches "/images/skyline.jpg%C3%9F"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:20:38 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:23:01 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:23:04 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:23:10 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:23:27 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:24:12 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:25:32 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:25:45 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 03 20:26:03 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)

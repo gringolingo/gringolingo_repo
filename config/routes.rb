@@ -1,4 +1,9 @@
 Gringolingo::Application.routes.draw do
+
+  root :to => "home#hello_gringo"
+
+  get "home/hello_gringo"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
