@@ -256,3 +256,4 @@ vendor
   vendor/rails/. This directory is in the load path.
 some words
 change
+another change
