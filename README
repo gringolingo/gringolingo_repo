@@ -28,6 +28,8 @@ link:files/vendor/rails/actionpack/README.html.
 =HERE is a comment
 here is a comment from amanda
 
+NOW another change.
+
 == Getting Started
 
 1. At the command prompt, create a new Rails application:
