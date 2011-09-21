@@ -363,3 +363,9 @@ Started GET "/" for 127.0.0.1 at Mon Jun 06 22:32:42 +1000 2011
   Processing by HomeController#hello_gringo as HTML
 Rendered home/hello_gringo.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 20 18:11:17 +1000 2011
+  Processing by HomeController#hello_gringo as HTML
+Rendered home/hello_gringo.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
